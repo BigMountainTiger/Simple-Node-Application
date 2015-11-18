@@ -6,5 +6,5 @@ exports.index = function(req, res) {
 
 exports.getJson = function(req, res) {
 	console.log("This is called");
-	res.json({ a: 1, b: 2 });
+	res.json({ a: 1, b: 2, c: 3 });
 };
