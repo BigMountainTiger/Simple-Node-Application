@@ -1,3 +1,5 @@
+console.log('The module is being loaded only once');
+
 let a = 'This is assigned in the module';
 
 const modify_a = (s) => {
