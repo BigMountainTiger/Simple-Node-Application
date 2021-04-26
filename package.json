@@ -2,12 +2,12 @@
   "name": "excercise",
   "version": "0.0.1",
   "private": true,
-  "scripts": { "start": "node index.js" },
-  
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.3.0"
   },
-  
   "devDependencies": {
     "mocha": "^1.18.0"
   }
