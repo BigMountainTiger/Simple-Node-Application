@@ -1,7 +1,7 @@
 let a = 'This is assigned in the module';
 
-const modify_a = () => {
-  a = 'Modifyed in the module';
+const modify_a = (s) => {
+  a = s;
 };
 
 const write_a = () => {
